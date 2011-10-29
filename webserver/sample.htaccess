@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteRule ^aigaionengine/(.*)	aigaionengine/$1	[L]
+	RewriteRule ^install/(.*)		install/$1			[L]
+	RewriteRule ^index.php/(.*)$	index.php?$1		[L,QSA]
+	RewriteRule	^index.php(.*)$		index.php$1			[L]
+	RewriteRule ^(.*)$				index.php?$1		[L,QSA]
+</IfModule>

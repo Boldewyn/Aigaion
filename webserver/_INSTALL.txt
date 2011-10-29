@@ -1,0 +1,12 @@
+    
+This documentation is for installing Aigaion 2.0 from scratch, with an empty database
+    
+    1)  Copy the Aigaion 2.0 files to <WEBROOT>/<aigaion2_rootdir>/
+    2)  Create a new MySQL database '<db_aigaion2>', with an appropriate user. The database is empty.
+    3)  Unpack <WEBROOT>/<aigaion2_rootdir>/install/install.zip into the directory 
+        <WEBROOT>/<aigaion2_rootdir>/install/
+    4)  make a directory where attachments will be stored, and make it writable. By default, 
+        Aigaion expects this directory to be <WEBROOT>/<aigaion2_rootdir>/attachments
+    5)  Point your browser to http://<server>/<aigaion2_rootdir>/install/install.php
+
+    From there on, follow the instructions on the screen.
