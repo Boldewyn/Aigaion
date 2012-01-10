@@ -1,0 +1,5 @@
+# ignore attachments
+webserver/attachments/*
+
+# ignore local index.php settings
+webserver/index.php*
