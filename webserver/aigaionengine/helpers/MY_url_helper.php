@@ -21,7 +21,7 @@ function prep_url($str = '')
 	}
 	
 	//mod by PDM, for Aigaion 2.0
-	if (eregi('^[a-z]+://', $str) == FALSE)
+	if (preg_match('/^[a-z]+:\/\//i', $str) == FALSE)
 	{
 		$str = 'http://'.$str;
 	}
